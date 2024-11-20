@@ -1,0 +1,25 @@
+.fifth-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 70vh;
+}
+.fifth-section h1 {
+  font-family: "Font2";
+  font-size: 3vw;
+}
+
+.fifth-imgs {
+  display: flex;
+  justify-content: center;
+}
+
+.fifth-imgs img {
+  width: 100px;
+  height: 100px;
+}
+
+.fifth-section {
+  gap: 4%;
+}

@@ -1,0 +1,56 @@
+.second-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(
+    -20deg,
+    var(--gradient-first-color) 0%,
+    var(--gradient-second-color) 40%,
+    var(--gradient-second-color) 60%,
+    var(--gradient-tertiary-color) 100%
+  );
+}
+
+.second-section .sobre {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+.second-section .sobre h1 {
+  font-family: "Font2";
+  color: var(--text-first-color);
+  font-size: 2.5vw;
+}
+
+.second-section .sobre p {
+  font-family: "Font3";
+  font-size: 18px;
+  color: var(--text-second-color);
+}
+
+.second-section img {
+  border-radius: 5px;
+  box-shadow: var(--shadow-first-color) -40px 35px 10px;
+}
+
+.second-section .sobre-main {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  background-color: var(--header-color);
+  max-width: 350px;
+  min-height: 370px;
+  padding: 0 20px 0 20px;
+  border-radius: 5px;
+  box-shadow: var(--shadow-second-color) 40px -35px 10px;
+}
+
+.second-section .sobre-main h1 {
+  padding-top: 8%;
+  padding-bottom: 15px;
+}
+.second-section .sobre-main .paragrafo {
+  text-indent: 10px;
+}

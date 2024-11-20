@@ -1,0 +1,63 @@
+:root {
+  --header-color: white;
+
+  --first-color: rgb(0, 255, 179);
+  --second-color: rgb(0, 255, 179);
+  --tertiary-color: rgb(0, 255, 179);
+
+  --gradient-first-color: rgba(47, 130, 202, 1);
+  --gradient-second-color: black;
+  --gradient-tertiary-color: rgba(22, 179, 184, 1);
+
+  --text-first-color: rgb(112, 112, 112);
+  --text-second-color: grey;
+
+  --shadow-first-color: rgba(0, 23, 36, 0.5);
+  --shadow-second-color: rgba(5, 0, 36, 0.5);
+  --shadow-thirt-color: rgba(0, 0, 0, 0.1);
+}
+html {
+  scroll-behavior: smooth;
+}
+
+@font-face {
+  font-family: "Font1";
+  src: local("Font1"), url(./fonts/conthrax-sb.otf) format("truetype");
+}
+
+@font-face {
+  font-family: "Font2";
+  src: local("Font2"), url(./fonts/Modular.otf) format("truetype");
+}
+
+@font-face {
+  font-family: "Font3";
+  src: local("Font3"), url(./fonts/Octosquares.ttf) format("truetype");
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+@keyframes fonteAnimacao {
+  100% {
+    font-size: 2.5vw;
+  }
+}
+
+@keyframes animacao {
+  100% {
+    color: var(--gradient-second-color);
+    background-color: var(--header-color);
+  }
+}
+
+@keyframes opacityAnimacao {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

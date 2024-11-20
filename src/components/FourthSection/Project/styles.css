@@ -1,0 +1,41 @@
+.projeto {
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  max-width: 200px;
+  height: 450px;
+  padding: 10% 0 10% 0;
+  border-radius: 30px;
+
+  cursor: pointer;
+  font-family: "Font3";
+
+  background-color: var(--gradient-second-color);
+  color: var(--header-color);
+  box-shadow: var(--shadow-thirt-color) 0px 10px 10px;
+
+  animation: opacityAnimacao forwards;
+  animation-timeline: View();
+  animation-range-start: -2%;
+  animation-range-end: 60%;
+}
+
+.projeto h1 {
+  font-size: 2.5vw;
+}
+.projeto h3 {
+  font-size: 1.5vw;
+}
+
+.projeto img {
+  max-width: 70%;
+  background: var(--header-color);
+  border: 3px solid var(--header-color);
+  border-radius: 100%;
+}
+
+.ativo {
+  animation: animacao forwards 0.5s, opacityAnimacao;
+}

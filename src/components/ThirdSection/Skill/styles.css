@@ -1,0 +1,28 @@
+.skill {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+  max-width: 300px;
+  min-height: 400px;
+  padding: 10% 0 10% 0;
+  border-radius: 30px;
+  background-color: var(--gradient-second-color);
+  color: var(--header-color);
+  font-family: "Font3";
+  box-shadow: var(--shadow-first-color) 0px 15px 20px;
+}
+
+.skill h1 {
+  padding-bottom: 50px;
+}
+.skill li {
+  text-align: start;
+}
+
+.skill img {
+  max-width: 70%;
+  background: var(--header-color);
+  border: 3px solid var(--header-color);
+  border-radius: 100%;
+}

@@ -1,0 +1,20 @@
+.fourth-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(
+    0deg,
+    var(--header-color) 0%,
+    var(--gradient-first-color) 100%
+    );
+}
+
+.organizacao-projetos {
+  display: flex;
+  gap: 2%;
+}
+
+.fourth-section {
+  gap: 4%;
+}
